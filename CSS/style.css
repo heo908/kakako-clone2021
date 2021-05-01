@@ -4,12 +4,25 @@
 /* Comeponenets */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-raw.css";
 
 /*Screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+
+/* @import "screens/more.css"; */
 
 
 body{
+    color: #2e363e;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
