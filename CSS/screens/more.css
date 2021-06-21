@@ -50,3 +50,16 @@
     color: white;
 }
 
+
+.more-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-icons .icon-row {
+
+}
+
+.more-icons .icon-row .icon-row__icons{
+    width: 64px;
+}
